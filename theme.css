@@ -1,0 +1,68 @@
+
+
+    .loader-inner img {
+        width: 100%;
+    }
+
+    .app-modal {
+        max-width: 315px;
+        display: grid;
+        place-items: center;
+        text-align: center;
+    }
+
+    /*  model 1*/
+    .model1-image {
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .model1-image img {
+        width: 100%;
+    }
+
+    .app-modal .title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .app-modal .description {
+        font-size: 17px;
+    }
+
+    .app-modal .modal-body {
+        padding: 1rem;
+    }
+
+    .app-modal .btn {
+        color: #fff !important;
+        background-color: #15cc51 !important;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .model2-wrapper .model1-image {
+        width: 100%;
+    }
+
+     * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #loader-wrapper {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        background-color: #ecf0f1;
+        position: fixed;
+        z-index: 9;
+    }
+
+    .loader-inner {
+        width: 280px;
+        height: 280px;
+        display: grid;
+        place-items: center;
+    }
